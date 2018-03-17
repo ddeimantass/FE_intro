@@ -1,0 +1,59 @@
+.Front{
+	color: #666;
+	font-size: 15px;
+	font-family: Arial;
+	padding: 25px;
+	width: 100%;
+	max-width: 680px;
+	box-sizing: border-box;
+}
+.Front-block{
+	padding: 10px 0; 
+}
+.Front-heading{
+	font-weight: bold;
+	margin: 0
+}
+.Heading-1{
+	font-size: 30px;
+	color: #627d81;
+	font-weight: 400;
+	margin: 0;
+	padding-bottom: 10px
+}
+.Heading-2{
+	font-size: 15px;
+	line-height: 133%;
+	color: #ff9900;
+	font-weight: bold;
+	padding-bottom: 5px;
+	margin: 0
+}
+.Front-uList{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ListItems--default li{
+	padding: 0px;
+}
+.ListItems--dotted li{
+	background: url('https://www.nfq.lt/public/images/web/ul.gif') no-repeat left 7px;
+	padding-left: 15px;
+}
+i.fas.fa-long-arrow-alt-right{
+	font-size: 12px;
+	width: 15px;
+	color: #ff9900;
+}
+.Front-paragraph{
+	margin: 0;
+}
+.Front-link{
+	color: #627d81;
+	text-decoration: underline
+}
+.Front-link:hover{
+	color: #fb8707;
+	text-decoration: underline
+}
