@@ -33,18 +33,23 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	display: flex ;
+	flex-direction: column;
 }
-.ListItems--default li{
-	padding: 0px;
+.ListItems--arrowed li{
+	padding: 0px;	
+}
+.ListItems--arrowed li:before{
+	content: "\f30b";
+	font-family: Font Awesome\ 5 Free;
+	font-weight: 900;
+	padding-right: 5px;
+	font-size: 12px;
+	color: #ff9900;
 }
 .ListItems--dotted li{
 	background: url('https://www.nfq.lt/public/images/web/ul.gif') no-repeat left 7px;
 	padding-left: 15px;
-}
-i.fas.fa-long-arrow-alt-right{
-	font-size: 12px;
-	width: 15px;
-	color: #ff9900;
 }
 .Front-paragraph{
 	margin: 0;
