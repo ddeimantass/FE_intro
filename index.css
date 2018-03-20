@@ -36,10 +36,10 @@
 	display: flex ;
 	flex-direction: column;
 }
-.ListItems--arrowed li{
+.ListItems--arrowed{
 	padding: 0px;	
 }
-.ListItems--arrowed li:before{
+.ListItems--arrowed:before{
 	content: "\f30b";
 	font-family: Font Awesome\ 5 Free;
 	font-weight: 900;
@@ -47,7 +47,7 @@
 	font-size: 12px;
 	color: #ff9900;
 }
-.ListItems--dotted li{
+.ListItems--dotted{
 	background: url('https://www.nfq.lt/public/images/web/ul.gif') no-repeat left 7px;
 	padding-left: 15px;
 }
